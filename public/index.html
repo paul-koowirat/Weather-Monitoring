@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Monitoring</title>
+</head>
+<body>
+    
+    <h1>The Weather Monitoring</h1>
+    <a href="/">checkin</a> | <a href="/logs">view checkins</a>
+    <p><span id="latitude"></span>&deg;,<span id="longitude"></span>&deg;</p>
+    <p>
+        The weather in <span id="location"></span> is <span id="summary"></span> with a temperature of
+        <span id="temp"></span> &degC. The concentration of PM25 is <span id="aq_value">        
+        </span > last read on <span id="aq_date"></span>
+    </p>
+  
+    <!--<button id="checkin">checkin</button> -->
+    <script src="sketch.js"></script>
+</body>
+</html>
